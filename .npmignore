@@ -4,9 +4,6 @@ test
 .eslintignore
 .eslintrc.yml
 .gitignore
-.looper.yml
-.npmrc
 .prettierignore
 .prettierrc
-.looper.yml
-sonar-project.properties
+.idea
