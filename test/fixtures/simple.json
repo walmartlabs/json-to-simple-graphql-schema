@@ -1,0 +1,8 @@
+{
+  "id": "some-id-0",
+  "name": "A fun object",
+  "subType": {
+    "id": "some-id-1",
+    "name": "A fun sub-type"
+  }
+}

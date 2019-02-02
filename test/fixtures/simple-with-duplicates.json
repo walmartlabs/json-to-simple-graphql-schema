@@ -1,0 +1,17 @@
+{
+  "id": "some-id-0",
+  "name": "A fun object",
+  "color": {
+    "id": "color-id-1",
+    "name": "Test color"
+  },
+  "subType": {
+    "id": "some-id-1",
+    "name": "A fun sub-type",
+    "color": {
+      "id": "color-id-1",
+      "name": "Test color",
+      "hex": "#ff0000"
+    }
+  }
+}

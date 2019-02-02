@@ -1,0 +1,246 @@
+{
+  "help": "https://demo.ckan.org/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "license_title": "Creative Commons Attribution Share-Alike",
+    "maintainer": "",
+    "relationships_as_object": [],
+    "private": false,
+    "maintainer_email": "",
+    "num_tags": 5,
+    "id": "beb6c3a6-098d-4389-b0a2-de0243728b42",
+    "metadata_created": "2017-07-18T13:16:28.631451",
+    "metadata_modified": "2018-11-20T15:16:40.735065",
+    "author": "Lucy Chambers",
+    "author_email": "",
+    "state": "active",
+    "version": "",
+    "creator_user_id": "bbe1265b-8ff1-4b39-a857-fc2e9eed2057",
+    "type": "dataset",
+    "resources": [
+      {
+        "mimetype": "",
+        "cache_url": null,
+        "hash": "",
+        "description": "Adur District Council April 2009",
+        "name": "",
+        "format": "CSV",
+        "url": "http://ckan.net/storage/f/file/3ffdcd42-5c63-4089-84dd-c23876259973",
+        "datastore_active": false,
+        "cache_last_updated": null,
+        "package_id": "beb6c3a6-098d-4389-b0a2-de0243728b42",
+        "created": "2017-07-18T13:16:28.648926",
+        "state": "active",
+        "mimetype_inner": "",
+        "last_modified": null,
+        "position": 0,
+        "revision_id": "8b4812ec-05f6-4df2-8b3c-c69db7da1f63",
+        "url_type": null,
+        "id": "281dffa6-ea9b-4446-be41-05dced06591f",
+        "resource_type": "file",
+        "size": null
+      }, {
+        "mimetype": "",
+        "cache_url": null,
+        "hash": "",
+        "description": "Mapping Metadata for Adur",
+        "name": "",
+        "format": "JSON",
+        "url": "http://ckan.net/storage/f/file/c8ce520c-c2e6-463a-99a3-ad24b023ccb4",
+        "datastore_active": false,
+        "cache_last_updated": null,
+        "package_id": "beb6c3a6-098d-4389-b0a2-de0243728b42",
+        "created": "2017-07-18T13:16:28.648955",
+        "state": "active",
+        "mimetype_inner": "",
+        "last_modified": null,
+        "openspending_hint": "model",
+        "position": 1,
+        "revision_id": "8b4812ec-05f6-4df2-8b3c-c69db7da1f63",
+        "url_type": null,
+        "id": "6cce3936-b169-4d12-82ba-65fcb79734a0",
+        "resource_type": "file",
+        "size": null
+      }, {
+        "mimetype": "",
+        "cache_url": null,
+        "hash": "",
+        "description": "Revised CSV for import",
+        "name": "",
+        "format": "CSV",
+        "url": "http://mk.ucant.org/info/data/adur.csv",
+        "datastore_active": true,
+        "cache_last_updated": null,
+        "package_id": "beb6c3a6-098d-4389-b0a2-de0243728b42",
+        "created": "2017-07-18T13:16:28.648967",
+        "state": "active",
+        "mimetype_inner": "",
+        "last_modified": null,
+        "openspending_hint": "data",
+        "position": 2,
+        "revision_id": "7e854221-ec7f-4cad-b0f6-061406138181",
+        "url_type": null,
+        "id": "04127ad5-77e5-4a08-9f40-12d3c383e460",
+        "resource_type": "file",
+        "size": null
+      }, {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "tset",
+        "name": "test",
+        "format": "",
+        "url": "http://samplecsvs.s3.amazonaws.com/Sacramentorealestatetransactions.csv",
+        "datastore_active": false,
+        "cache_last_updated": null,
+        "package_id": "beb6c3a6-098d-4389-b0a2-de0243728b42",
+        "created": "2018-05-02T07:41:39.508184",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 3,
+        "revision_id": "822460b4-b7fd-41ae-ae91-68a03bd82031",
+        "url_type": null,
+        "id": "bedf8aa5-edb7-4c4b-b959-0dd5f39b621e",
+        "resource_type": null,
+        "size": null
+      }, {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "",
+        "name": "test wms",
+        "format": "WMS",
+        "url": "http://gaservices.ga.gov.au/site_3/services/Bathymetry_Derivatives/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+        "datastore_active": false,
+        "cache_last_updated": null,
+        "package_id": "beb6c3a6-098d-4389-b0a2-de0243728b42",
+        "created": "2018-11-20T15:09:01.370014",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 4,
+        "revision_id": "52434a44-62ec-4b93-8435-7d5b7653e424",
+        "url_type": null,
+        "id": "4cbeed54-ff68-45ef-a322-34630487fc71",
+        "resource_type": null,
+        "size": null
+      }, {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "",
+        "name": "Shoreline_WM",
+        "format": "WMS",
+        "url": "http://services.ga.gov.au/gis/services/Shoreline_WM/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+        "datastore_active": false,
+        "cache_last_updated": null,
+        "package_id": "beb6c3a6-098d-4389-b0a2-de0243728b42",
+        "created": "2018-11-20T15:11:38.232101",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 5,
+        "revision_id": "9f412783-7f22-4d29-9b68-927b01f5650a",
+        "url_type": null,
+        "id": "c02455b5-fdd0-467f-9c61-a0eda72fcf29",
+        "resource_type": null,
+        "size": null
+      }, {
+        "mimetype": null,
+        "cache_url": null,
+        "hash": "",
+        "description": "",
+        "name": "other",
+        "format": "GeoJSON",
+        "url": "https://demo.ckan.org/dataset/af7c5451-98a3-4fdd-9968-f882da70e037/resource/2738274b-ea56-44db-9119-be3cbaecbfd9/download/arxiu_municipal_de_santa_perpetua_de_mogoda_cataleg_llicencies_.geojson",
+        "datastore_active": false,
+        "cache_last_updated": null,
+        "package_id": "beb6c3a6-098d-4389-b0a2-de0243728b42",
+        "created": "2018-11-20T15:13:11.312919",
+        "state": "active",
+        "mimetype_inner": null,
+        "last_modified": null,
+        "position": 6,
+        "revision_id": "e8850df5-ad87-4a87-ad96-a42423144884",
+        "url_type": "",
+        "id": "a0e8e40f-1e97-424f-bf61-9bb23e9f77f0",
+        "resource_type": null,
+        "size": null
+      }
+    ],
+    "num_resources": 7,
+    "tags": [
+      {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "country-uk",
+        "id": "e0e95afd-325c-4b02-bea9-b08955b6b5b7",
+        "name": "country-uk"
+      }, {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "date-2009",
+        "id": "4ec89897-b3ae-4dd5-b4ca-fac9129540ac",
+        "name": "date-2009"
+      }, {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "openspending",
+        "id": "d8bfaad5-6d65-4388-91cb-95e31e7a2dc0",
+        "name": "openspending"
+      }, {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "regiona",
+        "id": "ffdb3438-1321-4c83-90ba-80a0437d5e7c",
+        "name": "regiona"
+      }, {
+        "vocabulary_id": null,
+        "state": "active",
+        "display_name": "regional",
+        "id": "2ce67eb3-6022-47f9-b135-f6fd23d78804",
+        "name": "regional"
+      }
+    ],
+    "groups": [
+      {
+        "display_name": "Data Explorer Examples",
+        "description": "This group contains various real datasets that show CKAN's data previewer in action. The previewer shows a configurable grid view of tabular data, plots columns of data on a graph, and shows geo-coded data on an interactive map. It can also preview image files and web pages.",
+        "image_display_url": "http://farm8.staticflickr.com/7129/7041988029_411d985015_c.jpg",
+        "title": "Data Explorer Examples",
+        "id": "93327dc5-7615-4e11-bf17-974d30692ca5",
+        "name": "data-explorer"
+      }
+    ],
+    "license_id": "cc-by-sa",
+    "relationships_as_subject": [],
+    "organization": null,
+    "name": "adur_district_spending",
+    "isopen": true,
+    "url": "http://www.spotlightonspend.org.uk/Downloads/1038",
+    "notes": "Emphasis\r\n**bold**\r\n*italics*\r\n~~strikethrough~~\r\nHeaders\r\n# Big header\r\n## Medium header\r\n### Small header\r\n#### Tiny header\r\n![](https://images.pexels.com/photos/8633/nature-tree-green-pine.jpg?auto=compress&cs=tinysrgb&h=350)\r\n\r\nLists\r\n* Generic list item\r\n* Generic list item\r\n* Generic list item\r\n\r\n1. Numbered list item\r\n2. Numbered list item\r\n3. Numbered list item\r\nLinks\r\n[Text to display](http://www.example.com)\r\nQuotes\r\n> This is a quote.\r\n> It can span multiple lines!\r\nImages   Need to upload an image? Imgur has a great interface.\r\n![](http://www.example.com/image.jpg)\r\nTables\r\n| Column 1 | Column 2 | Column 3 |\r\n| -------- | -------- | -------- |\r\n| John     | Doe      | Male     |\r\n| Mary     | Smith    | Female   |\r\n\r\nOr without aligning the columns...\r\n\r\n| Column 1 | Column 2 | Column 3 |\r\n| -------- | -------- | -------- |\r\n| John | Doe | Male |\r\n| Mary | Smith | Female |\r\nDisplaying code\r\n`var example = \"hello!\";`\r\n\r\nOr spanning multiple lines...\r\n\r\n```\r\nvar example = \"hello!\";\r\nalert(example);\r\n```\r\n\r\n![](https://images.pexels.com/photos/8633/nature-tree-green-pine.jpg?auto=compress&cs=tinysrgb&h=350)",
+    "owner_org": null,
+    "extras": [
+      {
+        "key": "asdasd",
+        "value": "asdasd"
+      }, {
+        "key": "asdsa1111",
+        "value": "asdasd2222"
+      }, {
+        "key": "spatial",
+        "value": "{ \"type\": \"Polygon\", \"coordinates\": [ [ [-0.3715, 50.8168],[-0.3715, 50.8747], [-0.2155, 50.8747], [-0.2155, 50.8168], [-0.3715, 50.8168] ] ] }"
+      }, {
+        "key": "spatial-text",
+        "value": "Adur, West Sussex, South East England, England, United Kingdom"
+      }, {
+        "key": "spatial2",
+        "value": "{ \"type\": \"Point\", \"coordinates\": [-3.145,53.078] }"
+      }
+    ],
+    "license_url": "http://www.opendefinition.org/licenses/cc-by-sa",
+    "title": "UK: Adur District Council Spending Data",
+    "revision_id": "ea6af97f-0a19-4bf4-92aa-bae0c49d62f4"
+  }
+}
