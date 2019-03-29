@@ -30,6 +30,14 @@ curl https://demo.ckan.org/api/3/action/package_show?id=adur_district_spending >
 cat input.json | npx json-to-simple-graphql-schema > output.graphql
 ```
 
+### Usage in the browser:
+```javascript
+import { jsonToSchema } from "@walmartlabs/json-to-simple-graphql-schema/lib";
+
+const schema = jsonToSchema({ jsonInput: '{"name": "Test"}' });
+console.log(schema.value);
+```
+
 ### Example output:
 
 Given this JSON:
