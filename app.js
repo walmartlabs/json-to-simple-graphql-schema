@@ -17,11 +17,11 @@
 
 "use strict";
 
-const getStdin = require("get-stdin");
+const fs = require("fs");
 const { jsonToSchema } = require("./lib");
 
-const main = async () => {
-  const jsonInput = await getStdin();
+const main = () => {
+  const jsonInput = fs.readFileSync(0, "utf8");
 
   const { error, value } = jsonToSchema({ jsonInput });
   if (error) {
