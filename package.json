@@ -23,7 +23,7 @@
     "format": "$(npm bin)/prettier --write './**/*.js'",
     "pretest": "npm run format && npm run lint",
     "lint": "$(npm bin)/eslint .",
-    "test": "$(npm bin)/jest --coverage.",
+    "test": "$(npm bin)/jest --coverage .",
     "web-ui-start": "$(npm bin)/webpack-dev-server --config ./web-ui/webpack.dev.js",
     "web-ui-build": "$(npm bin)/webpack --config ./web-ui/webpack.prod.js"
   },
