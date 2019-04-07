@@ -8,12 +8,16 @@ Let's say you want to use an existing REST API in a GraphQL service and expose t
 
 ### Installation:
 
-No need to install this, use `npx` :) If you'd really like to install, you can do:
+For use as a command-line app use `npx` :) If you'd really like to install, you can do:
 ```bash
 npm i -g @walmartlabs/json-to-simple-graphql-schema
 ```
+For use in a project:
+```bash
+npm i @walmartlabs/json-to-simple-graphql-schema
+```
 
-### Usage:
+### Command Line Usage:
 
 Pipe in some JSON. Here's a cURL JSON response piped in to this app:
 ```bash
