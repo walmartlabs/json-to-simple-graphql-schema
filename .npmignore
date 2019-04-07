@@ -6,3 +6,5 @@ test
 .prettierignore
 .prettierrc
 .idea
+docs
+web-ui
