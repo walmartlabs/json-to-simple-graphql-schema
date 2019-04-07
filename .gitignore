@@ -1,4 +1,5 @@
 node_modules
 coverage
 .idea
-
+docs/*.js
+docs/*.css

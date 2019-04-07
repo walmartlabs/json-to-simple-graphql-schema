@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+textarea {
+  width: 100%;
+  height: 85vh;
+  font-family: monospace;
+  border: 0;
+  border: solid 1px black;
+}
+
+p {
+  margin: 5px;
+}
+
+.invalid {
+  outline: none !important;
+  border: solid 2px red;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 0px 10px 0 10px;
+}
+
+.powered-by {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 10px;
+}
