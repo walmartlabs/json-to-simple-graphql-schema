@@ -1,6 +1,7 @@
 ## json-to-simple-graphql-schema
 
-Transforms streamed JSON input into a GraphQL schema.
+Transforms JSON input into a GraphQL schema. 
+[Try it here](https://walmartlabs.github.io/json-to-simple-graphql-schema/)
 
 ### Why would I use this?
 
@@ -34,13 +35,14 @@ curl https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.json?accessType=DOWN
 cat input.json | npx json-to-simple-graphql-schema > output.graphql
 ```
 
-### Usage in the browser:
+### Usage in front-end JS:
 ```javascript
 import { jsonToSchema } from "@walmartlabs/json-to-simple-graphql-schema/lib";
 
 const schema = jsonToSchema({ jsonInput: '{"name": "Test"}' });
 console.log(schema.value);
 ```
+If you need more guidance, have a look at [the source for our simple web-ui](./web-ui).
 
 ### Example output:
 
