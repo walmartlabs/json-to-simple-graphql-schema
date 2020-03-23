@@ -22,7 +22,10 @@ const { jsonToSchema } = require("../lib");
 
 describe("Simple input tests", () => {
   it("Parses simple input", () => {
-    const result = jsonToSchema({ baseType: "Test", jsonInput: JSON.stringify(simpleInput) });
+    const result = jsonToSchema({
+      baseType: "Test",
+      jsonInput: JSON.stringify(simpleInput)
+    });
     expect(result.value).toBeTruthy();
     expect(result.value).toEqual(`type SubType {
   id: String

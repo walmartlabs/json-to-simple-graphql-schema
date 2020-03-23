@@ -21,7 +21,10 @@ const { jsonToSchema } = require("../lib");
 
 describe("Complex input tests", () => {
   it("Parses complex input", () => {
-    const result = jsonToSchema({ baseType: "Test", jsonInput: JSON.stringify(complexInput) });
+    const result = jsonToSchema({
+      baseType: "Test",
+      jsonInput: JSON.stringify(complexInput)
+    });
     expect(result.value).toBeTruthy();
     expect(result.value).toEqual(`type Extras {
   key: String
