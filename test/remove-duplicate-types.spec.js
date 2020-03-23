@@ -24,11 +24,14 @@ describe("Remove duplicate types tests", () => {
       "type Type0 { field0: Int field1: Int } type Type0 { field0: Int field1: Int field2: Int }";
     const result = removeDuplicateTypes(input);
     expect(result).toBeTruthy();
-    expect(result).toEqual("type Type0 { field0: Int field1: Int field2: Int }");
+    expect(result).toEqual(
+      "type Type0 { field0: Int field1: Int field2: Int }"
+    );
   });
 
   it("Indicates probable duplicate fields", () => {
-    const input = "type Type0 { field0: Int field1: Int } type Type1 { field0: Int field1: Int }";
+    const input =
+      "type Type0 { field0: Int field1: Int } type Type1 { field0: Int field1: Int }";
     const result = removeDuplicateTypes(input);
     expect(result).toBeTruthy();
     expect(result).toEqual(`type Type0 { field0: Int field1: Int }
