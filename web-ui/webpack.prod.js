@@ -18,7 +18,6 @@ const path = require("path");
 const webpack = require("webpack");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const HtmlWebpackInlineSourcePlugin = require("html-webpack-inline-source-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 // const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
@@ -80,8 +79,6 @@ module.exports = {
       inject: "body",
       minify: true
     }),
-    // remove this if you do not want to inline the src
-    new HtmlWebpackInlineSourcePlugin()
     //new BundleAnalyzerPlugin(),
   ]
 };
