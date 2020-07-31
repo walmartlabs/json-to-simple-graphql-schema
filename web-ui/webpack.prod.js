@@ -78,7 +78,7 @@ module.exports = {
       template: path.join(srcPath, "index.html"),
       inject: "body",
       minify: true
-    }),
+    })
     //new BundleAnalyzerPlugin(),
   ]
 };
