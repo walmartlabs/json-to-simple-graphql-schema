@@ -21,6 +21,7 @@ npm i @walmartlabs/json-to-simple-graphql-schema
 ### Command Line Usage:
 
 Pipe in some JSON. Here's a cURL JSON response piped in to this app:
+```bash
 curl "https://data.cityofnewyork.us/api/views/kku6-nxdu/rows.json?accessType=DOWNLOAD" \
 | npx @walmartlabs/json-to-simple-graphql-schema
 ```
