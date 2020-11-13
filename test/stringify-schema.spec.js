@@ -20,7 +20,7 @@ const { stringifySchema } = require("../lib/stringify-schema");
 
 describe("stringifySchema Tests", () => {
   it("handles properties with 'type' in their names", () => {
-    const result = stringifySchema("Test", {
+    const result = stringifySchema("Test", "", {
       atype: {
         here: "String"
       }

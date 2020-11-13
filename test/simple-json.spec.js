@@ -46,7 +46,7 @@ type Test {
       jsonInput: JSON.stringify(simpleInput)
     });
     expect(result.value).toBeTruthy();
-    expect(result.value).toEqual(`type SubType {
+    expect(result.value).toEqual(`type PrefixSubType {
   id: String
   name: String
 }
