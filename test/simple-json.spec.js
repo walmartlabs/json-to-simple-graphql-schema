@@ -39,6 +39,25 @@ type Test {
 }`);
   });
 
+  it("Parses simple input with prefix", () => {
+    const result = jsonToSchema({
+      baseType: "Test",
+      prefix: "Prefix",
+      jsonInput: JSON.stringify(simpleInput)
+    });
+    expect(result.value).toBeTruthy();
+    expect(result.value).toEqual(`type SubType {
+  id: String
+  name: String
+}
+
+type Test {
+  id: String
+  name: String
+  subType: PrefixSubType
+}`);
+  });
+
   it("Parses simple input removing duplicates", () => {
     const result = jsonToSchema({
       baseType: "Test",
