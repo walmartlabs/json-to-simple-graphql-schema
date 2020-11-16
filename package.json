@@ -20,12 +20,12 @@
     "json-to-simple-graphql-schema": "./app.js"
   },
   "scripts": {
-    "format": "$(npm bin)/prettier --write './**/*.js'",
+    "format": "prettier --write './**/*.js'",
     "pretest": "npm run format && npm run lint",
-    "lint": "$(npm bin)/eslint .",
-    "test": "$(npm bin)/jest --coverage .",
-    "web-ui-start": "$(npm bin)/webpack-dev-server --config ./web-ui/webpack.dev.js",
-    "web-ui-build": "$(npm bin)/webpack --config ./web-ui/webpack.prod.js"
+    "lint": "eslint .",
+    "test": "jest --coverage .",
+    "web-ui-start": "webpack-dev-server --config ./web-ui/webpack.dev.js",
+    "web-ui-build": "webpack --config ./web-ui/webpack.prod.js"
   },
   "dependencies": {
     "lodash.isboolean": "^3.0.3",
