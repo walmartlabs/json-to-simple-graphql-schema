@@ -21,7 +21,20 @@ const fs = require("fs");
 const { jsonToSchema } = require("./lib");
 const yargs = require("yargs/yargs");
 const { hideBin } = require("yargs/helpers");
-const argv = yargs(hideBin(process.argv)).argv;
+const argv = yargs(hideBin(process.argv)).options({
+  baseType: {
+    description: "Name of the base schema type",
+    required: false,
+    alias: "b",
+    default: ""
+  },
+  prefix: {
+    description: "Prefix to add to every generated type",
+    required: false,
+    alias: "p",
+    default: ""
+  }
+}).argv;
 
 const main = () => {
   const jsonInput = fs.readFileSync(0, "utf8");
