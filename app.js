@@ -38,7 +38,7 @@ const argv = yargs(hideBin(process.argv)).options({
 
 const main = () => {
   const jsonInput = fs.readFileSync(0, "utf8");
-  const { baseType,prefix } = argv;
+  const { baseType, prefix } = argv;
   const { error, value } = jsonToSchema({
     baseType,
     prefix,
