@@ -15,8 +15,8 @@
 ###########################################################################
 
 ---
-extends: "walmart/configurations/es6-node"
+extends: "eslint:recommended"
 env:
   node: true
-  es6: true
   jest: true
+  es2020: true

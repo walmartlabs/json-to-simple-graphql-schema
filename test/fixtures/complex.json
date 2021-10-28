@@ -39,7 +39,8 @@
         "id": "281dffa6-ea9b-4446-be41-05dced06591f",
         "resource_type": "file",
         "size": null
-      }, {
+      },
+      {
         "mimetype": "",
         "cache_url": null,
         "hash": "",
@@ -61,7 +62,8 @@
         "id": "6cce3936-b169-4d12-82ba-65fcb79734a0",
         "resource_type": "file",
         "size": null
-      }, {
+      },
+      {
         "mimetype": "",
         "cache_url": null,
         "hash": "",
@@ -83,7 +85,8 @@
         "id": "04127ad5-77e5-4a08-9f40-12d3c383e460",
         "resource_type": "file",
         "size": null
-      }, {
+      },
+      {
         "mimetype": null,
         "cache_url": null,
         "hash": "",
@@ -104,7 +107,8 @@
         "id": "bedf8aa5-edb7-4c4b-b959-0dd5f39b621e",
         "resource_type": null,
         "size": null
-      }, {
+      },
+      {
         "mimetype": null,
         "cache_url": null,
         "hash": "",
@@ -125,7 +129,8 @@
         "id": "4cbeed54-ff68-45ef-a322-34630487fc71",
         "resource_type": null,
         "size": null
-      }, {
+      },
+      {
         "mimetype": null,
         "cache_url": null,
         "hash": "",
@@ -146,7 +151,8 @@
         "id": "c02455b5-fdd0-467f-9c61-a0eda72fcf29",
         "resource_type": null,
         "size": null
-      }, {
+      },
+      {
         "mimetype": null,
         "cache_url": null,
         "hash": "",
@@ -177,25 +183,29 @@
         "display_name": "country-uk",
         "id": "e0e95afd-325c-4b02-bea9-b08955b6b5b7",
         "name": "country-uk"
-      }, {
+      },
+      {
         "vocabulary_id": null,
         "state": "active",
         "display_name": "date-2009",
         "id": "4ec89897-b3ae-4dd5-b4ca-fac9129540ac",
         "name": "date-2009"
-      }, {
+      },
+      {
         "vocabulary_id": null,
         "state": "active",
         "display_name": "openspending",
         "id": "d8bfaad5-6d65-4388-91cb-95e31e7a2dc0",
         "name": "openspending"
-      }, {
+      },
+      {
         "vocabulary_id": null,
         "state": "active",
         "display_name": "regiona",
         "id": "ffdb3438-1321-4c83-90ba-80a0437d5e7c",
         "name": "regiona"
-      }, {
+      },
+      {
         "vocabulary_id": null,
         "state": "active",
         "display_name": "regional",
@@ -225,16 +235,20 @@
       {
         "key": "asdasd",
         "value": "asdasd"
-      }, {
+      },
+      {
         "key": "asdsa1111",
         "value": "asdasd2222"
-      }, {
+      },
+      {
         "key": "spatial",
         "value": "{ \"type\": \"Polygon\", \"coordinates\": [ [ [-0.3715, 50.8168],[-0.3715, 50.8747], [-0.2155, 50.8747], [-0.2155, 50.8168], [-0.3715, 50.8168] ] ] }"
-      }, {
+      },
+      {
         "key": "spatial-text",
         "value": "Adur, West Sussex, South East England, England, United Kingdom"
-      }, {
+      },
+      {
         "key": "spatial2",
         "value": "{ \"type\": \"Point\", \"coordinates\": [-3.145,53.078] }"
       }

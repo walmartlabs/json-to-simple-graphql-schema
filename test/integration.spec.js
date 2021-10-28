@@ -20,14 +20,14 @@ const fs = require("fs");
 const path = require("path");
 const { spawn } = require("child_process");
 
-const streamToApp = inputStream =>
+const streamToApp = (inputStream) =>
   new Promise((resolve, reject) => {
     const appStream = spawn("node", ["app.js"], {
-      cwd: path.join(__dirname, "../")
+      cwd: path.join(__dirname, "../"),
     });
 
     let schemaResult = "";
-    appStream.stdout.on("data", data => (schemaResult += data.toString()));
+    appStream.stdout.on("data", (data) => (schemaResult += data.toString()));
     appStream.stdout.on("close", () => resolve(schemaResult));
 
     inputStream.pipe(appStream.stdin).on("error", reject);

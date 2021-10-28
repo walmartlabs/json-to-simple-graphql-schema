@@ -24,7 +24,7 @@ describe("Simple input tests", () => {
   it("Parses simple input", () => {
     const result = jsonToSchema({
       baseType: "Test",
-      jsonInput: JSON.stringify(simpleInput)
+      jsonInput: JSON.stringify(simpleInput),
     });
     expect(result.value).toBeTruthy();
     expect(result.value).toEqual(`type SubType {
@@ -43,7 +43,7 @@ type Test {
     const result = jsonToSchema({
       baseType: "Test",
       prefix: "Prefix",
-      jsonInput: JSON.stringify(simpleInput)
+      jsonInput: JSON.stringify(simpleInput),
     });
     expect(result.value).toBeTruthy();
     expect(result.value).toEqual(`type PrefixSubType {
@@ -61,7 +61,7 @@ type Test {
   it("Parses simple input removing duplicates", () => {
     const result = jsonToSchema({
       baseType: "Test",
-      jsonInput: JSON.stringify(simpleInputWithDuplicates)
+      jsonInput: JSON.stringify(simpleInputWithDuplicates),
     });
     expect(result.value).toBeTruthy();
     expect(result.value).toEqual(`type Color {

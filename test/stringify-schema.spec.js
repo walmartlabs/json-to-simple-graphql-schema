@@ -22,8 +22,8 @@ describe("stringifySchema Tests", () => {
   it("handles properties with 'type' in their names", () => {
     const result = stringifySchema("Test", "", {
       atype: {
-        here: "String"
-      }
+        here: "String",
+      },
     });
     expect(result).toEqual(`type Atype {
   here: String

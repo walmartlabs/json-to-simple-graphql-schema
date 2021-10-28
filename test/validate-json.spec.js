@@ -20,7 +20,7 @@ const { validateJson } = require("../lib");
 
 describe("Validate JSON tests", () => {
   it("guards against bad input", () => {
-    [undefined, null, "", 0, "string", "{", []].forEach(input => {
+    [undefined, null, "", 0, "string", "{", []].forEach((input) => {
       const result = validateJson(input);
       expect(result.value).toBeFalsy();
       expect(result.error).toBeTruthy();
