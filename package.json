@@ -1,7 +1,7 @@
 {
   "name": "@walmartlabs/json-to-simple-graphql-schema",
   "description": "Converts a JSON object into a GraphQL schema",
-  "version": "2.0.6",
+  "version": "3.0.0",
   "homepage": "https://github.com/walmartlabs/json-to-simple-graphql-schema",
   "bugs": {
     "url": "https://github.com/walmartlabs/json-to-simple-graphql-schema/issues"
