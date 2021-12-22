@@ -24,9 +24,9 @@ describe("Bad character input tests", () => {
       baseType: "Test",
       jsonInput: JSON.stringify({
         "*./curious_Prop0*": {
-          "**/.funSubProp": true
-        }
-      })
+          "**/.funSubProp": true,
+        },
+      }),
     });
     expect(result.value).toBeTruthy();
     expect(result.value).toEqual(`type CuriousProp0 {

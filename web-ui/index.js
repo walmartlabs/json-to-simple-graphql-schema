@@ -1,5 +1,5 @@
 import "./index.css";
-import { jsonToSchema } from "../../lib";
+import { jsonToSchema } from "../lib";
 
 const setup = () => {
   const jsonTextarea = document.getElementById("json");

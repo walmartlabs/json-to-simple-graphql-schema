@@ -23,7 +23,7 @@ describe("Complex input tests", () => {
   it("Parses complex input", () => {
     const result = jsonToSchema({
       baseType: "Test",
-      jsonInput: JSON.stringify(complexInput)
+      jsonInput: JSON.stringify(complexInput),
     });
     expect(result.value).toBeTruthy();
     expect(result.value).toEqual(`type Extras {
