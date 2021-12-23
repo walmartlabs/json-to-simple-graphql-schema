@@ -6,5 +6,7 @@ test
 .prettierignore
 .prettierrc
 .idea
+.vscode
 docs
 web-ui
+webpack.config.js
