@@ -4,7 +4,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: "./web-ui/index.js",
-  mode: "production",
+  mode: "development",
+  devtool: 'inline-source-map',
+  devServer: {
+    static: './docs',
+  },
   output: {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, "docs"),

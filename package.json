@@ -18,6 +18,7 @@
   },
   "scripts": {
     "build-web-ui": "webpack",
+    "start-web-ui-dev": "webpack serve -c webpack.config.dev.js --open",
     "pretest": "npm run lint",
     "lint": "prettier --check . && eslint .",
     "lint-fix": "prettier --write . && eslint . --fix",
@@ -36,10 +37,12 @@
   "devDependencies": {
     "css-loader": "6.5.1",
     "eslint": "8.5.0",
+    "html-webpack-plugin": "5.5.0",
     "jest": "27.4.5",
     "prettier": "2.5.1",
     "style-loader": "3.3.1",
     "webpack": "5.65.0",
-    "webpack-cli": "4.9.1"
+    "webpack-cli": "4.9.1",
+    "webpack-dev-server": "4.7.1"
   }
 }

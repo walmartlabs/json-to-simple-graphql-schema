@@ -4,7 +4,6 @@ import { jsonToSchema } from "../lib";
 const setup = () => {
   const jsonTextarea = document.getElementById("json");
   const graphqlTextarea = document.getElementById("graphql");
-  const jsonSpaces = 2;
 
   const setGraphQLResult = () => {
     if (!jsonTextarea.value) {
@@ -14,7 +13,7 @@ const setup = () => {
 
     try {
       const jsonObject = JSON.parse(jsonTextarea.value);
-      jsonTextarea.value = JSON.stringify(jsonObject, null, jsonSpaces);
+      jsonTextarea.value = JSON.stringify(jsonObject, null, 2);
       jsonTextarea.classList.remove("invalid");
 
       const schema = jsonToSchema({ jsonInput: jsonTextarea.value });
@@ -26,7 +25,7 @@ const setup = () => {
     }
   };
 
-  const typingTimerLength = 500;
+  const typingTimerLength = 1000;
   let timerId = null;
 
   jsonTextarea.addEventListener(
