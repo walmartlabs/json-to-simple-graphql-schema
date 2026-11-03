@@ -19,7 +19,7 @@
 
 const fs = require("fs");
 const { jsonToSchema } = require("./lib");
-const yargs = require("yargs/yargs");
+const yargs = require("yargs");
 const { hideBin } = require("yargs/helpers");
 
 const argv = yargs(hideBin(process.argv)).options({
